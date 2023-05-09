@@ -1,0 +1,159 @@
+.background-red {
+  background-color: #ed1c24;
+}
+
+.background-white {
+  background-color: white;
+}
+.color-red {
+  color: #ed1c24;
+}
+
+.color-white {
+  color: white;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 42px;
+}
+
+h2 {
+  font-size: 33px;
+  line-height: 33px;
+}
+
+p {
+  font-size: 19px;
+}
+
+p.small {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.width-100 {
+  width: 100%;
+}
+
+.holder {
+  width: 100vw;
+  max-width: 670px;
+}
+.held {
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  /* width: 150px; */
+  padding: 10px;
+}
+
+.max-width-170 {
+  max-width: 175px;
+}
+
+aside {
+  max-width: 350px;
+}
+
+.padding-medium {
+  padding: 30px;
+}
+
+#ActivityDIV .swatchHolder {
+  width: 100%;
+  line-height: 100%;
+  content: "Chosen Color";
+  padding: 10px 0px;
+  margin: 0px auto 15px auto;
+  cursor: pointer;
+  display: none;
+}
+
+.swatchContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(3rem, 100%), 1fr));
+  grid-gap: 20px;
+}
+
+.swatchContainer li {
+  height: 50px;
+  width: 50px;
+  display: block;
+  cursor: pointer;
+}
+
+.color-ui {
+  z-index: 99;
+  bottom: 80px;
+}
+.colorHolder {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  float: right;
+}
+
+.logosvg {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.SwatchHolderIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  float: right;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+#ActivityDIV svg {
+  width: 100%;
+  display: inline-block;
+}
+#ActivityDIV svg path {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  aside {
+    max-width: 100%;
+  }
+
+  .color-ui {
+    position: initial !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #teste {
+    margin-left: 0px;
+  }
+
+  .share{
+    flex-direction: column;
+  }
+
+  .holder{
+    padding: 0 !important;
+    padding-left: 30px !important;
+    display: block !important;
+  }
+}
+
+
+canvas#girl{
+  width: 100% !important;
+  height: auto !important;
+}

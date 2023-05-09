@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-1075.82,-494.879)">
+        <g transform="matrix(1,0,0,1,1108.67,498.174)">
+            <path d="M0,59.119C16.325,59.119 29.56,45.885 29.56,29.559C29.56,13.234 16.325,0 0,0C-16.325,0 -29.56,13.234 -29.56,29.559C-29.56,45.885 -16.325,59.119 0,59.119Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.6px;"/>
+        </g>
+        <g transform="matrix(1.01001,0,0,1,1078.16,497.374)">
+            <text x="15.267px" y="41.791px" style="font-family:'AvenirLTStd-Black', 'Avenir LT Std', sans-serif;font-weight:750;font-size:6.976px;fill:white;">E<tspan x="20.29px 26.603px 32.142px 34.835px 40.632px " y="41.791px 41.791px 41.791px 41.791px 41.791px ">NVIAR</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,1119.51,529.518)">
+            <path d="M0,-21.62C-0.183,-21.803 -0.457,-21.859 -0.697,-21.763L-21.453,-13.461C-21.691,-13.366 -21.85,-13.139 -21.859,-12.884C-21.868,-12.628 -21.725,-12.391 -21.495,-12.28L-13.31,-8.31L-9.34,-0.125C-9.232,0.098 -9.006,0.239 -8.759,0.239L-8.736,0.239C-8.481,0.23 -8.255,0.07 -8.16,-0.167L0.143,-20.923C0.239,-21.163 0.183,-21.437 0,-21.62M-3.139,-19.395L-12.958,-9.575L-19.616,-12.804L-3.139,-19.395ZM-8.816,-2.004L-12.045,-8.662L-2.225,-18.481L-8.816,-2.004Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
