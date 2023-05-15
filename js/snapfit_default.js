@@ -1,5 +1,5 @@
 
-snapfit.defaultMixed = false; //BOOLEAN mix pieces at startup
+snapfit.defaultMixed = true; //BOOLEAN mix pieces at startup
 snapfit.defaultSimple = true; //BOOLEAN mix the positions only
 snapfit.defaultNokeys = false; //BOOLEAN no keyboard control
 snapfit.defaultTofront = true; //BOOLEAN on snap automatically set all pieces behind the current to front

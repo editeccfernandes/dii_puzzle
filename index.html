@@ -52,11 +52,11 @@
   <div id="fade-puzzle">
     <section id="chartContainer">
       <span style="height: 30px; display: block"></span>
-      <div class="uk-container-large uk-flex uk-flex-center">
+      <div class="uk-container-fluid uk-flex uk-flex-center">
         <h2 id="solved" class="color-purple fade-in" style="padding: 0; margin-bottom: 10px; display: none;">Parabéns!
-          Terminou o puzzle em:</h2>
+          Terminaste o puzzle em:</h2>
       </div>
-      <div class="uk-container-large uk-flex uk-flex-center">
+      <div class="uk-container-fluidx\ uk-flex uk-flex-center">
         <div class="stopwatch" id="#stopwatch" style="padding: 0; margin-bottom: 10px; ">00:00</div>
       </div>
 
@@ -96,7 +96,7 @@
           style="padding: 20px 50px; background-color: #048615; color: white; border-radius: 0px 18px 18px 18px; font-size: 20px; ">
           TRANSFERIR IMAGEM</div>
       </div>
-      
+
         <p class="color-purple  uk-margin-small-bottom">Conseguiste descobrir?<br>
           Descarrega a imagem e partilha o puzzle completo<br>
           no grupo Takeda All Together.
@@ -131,7 +131,7 @@
 
     $("#start").on('click', function () {
       $("#start").addClass("noselect")
-      snapfit.admix(image, true);
+      // snapfit.admix(image, true);
       $(".visible").removeClass("hidden")
 
       $('.stopwatch').countimer({
