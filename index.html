@@ -21,94 +21,154 @@
   </div>
 
   <section id="header">
-    <div class="uk-flex uk-flex-center uk-text-center background-red uk-margin-xlarge-bottom">
-      <div class="uk-container-small uk-padding-small width-100 uk-position-relative">
-        <div class="uk-margin-medium-top uk-margin-medium-bottom uk-grid  uk-child-width-1-1 uk-child-width-auto@m">
-          <img src="./svg/logo.svg" class="logosvg  uk-padding-small uk-margin-auto" width="300" alt="">
-          <div class="uk-margin-auto">
-            <h2 class="uk-margin-remove color-white"><b> ADAPTING</b> TO</h2>
-            <h1 class="uk-margin-remove color-white">
-              <b>CHANGE</b>
-            </h1>
-            <p class="color-white">
-              Sustaining care<br />
-              in a new world
-            </p>
-          </div>
+    <div class="uk-flex uk-flex-center uk-text-center background-purple uk-margin-xlarge-bottom">
+      <div class="uk-container-fluid uk-padding-small width-100 uk-position-relative">
+        <div class="uk-grid uk-child-width-1-1 uk-child-width-auto@m" style="justify-content: right;">
+          <img src="./svg/logo.svg" class="logosvg" width="160" alt="" style="max-width: 160px; margin-top:4px ;">
+
+        </div>
+        <div>
+          <img src="svg/header.svg" alt="" srcset=""
+            style="max-width: 800px; margin: 0 auto; margin-top: 50px; margin-bottom: 80px;">
         </div>
       </div>
     </div>
   </section>
   <section>
-    <div class="uk-container-large uk-margin-auto uk-padding-small">
-      <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m uk-flex-center">
-        <aside>
-          <div class="max-width-175">
-            <h3 class="uk-text-uppercase color-red">Neste dia, dá o teu contributo e <b>mostra-nos as tuas cores!</b>
-            </h3>
-          </div>
-          <div class="uk-width-1-1 background-red color-white padding-medium">
-            <p>1) Escolhe uma cor</p>
-            <p>2) Seleciona uma zona da imagem e pinta este dia à tua maneira</p>
-            <p>3) Quando terminares, transfere o teu desenho para o teu dispositivo e envia-nos para celebrarmos este
-              dia juntos.</p>
-            <p>4) Partilha-o também nas redes sociais</p>
-            <div class="share uk-margin-auto uk-flex uk-flex-center uk-flex-middle">
-              <a id="send" class="button gray"><img width="100" height="auto" src="svg/enviar.svg"
-                  /></a>
-              <a id="download" class="button gray"><img width="100" height="auto" src="svg/download.svg"
-                  /></a>
-             
+   <div class=" fade-out">
+    <h1 class="color-purple" style="text-transform: uppercase; text-align: center; margin: 0; margin-bottom: 20px;">
+      Resolve o puzzle e descobre</h1>
+    <div class="uk-flex uk-flex-center uk-container-large uk-margin-auto uk-padding-small">
+        <div id="start" class=" select">
+          COMEÇAR</div>
+      
+    </div>
+    
+   </div>
+  
+  </section>
+
+
+  <div id="fade-puzzle">
+    <section id="chartContainer">
+      <span style="height: 30px; display: block"></span>
+      <div class="uk-container-large uk-flex uk-flex-center">
+        <h2 id="solved" class="color-purple fade-in" style="padding: 0; margin-bottom: 10px; display: none;">Parabéns!
+          Terminou o puzzle em:</h2>
+      </div>
+      <div class="uk-container-large uk-flex uk-flex-center">
+        <div class="stopwatch" id="#stopwatch" style="padding: 0; margin-bottom: 10px; ">00:00</div>
+      </div>
+
+      <div class="uk-container uk-margin-auto uk-padding-small">
+        <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m uk-flex-center">
+
+          <div class="holder uk-position-relative uk-flex uk-flex-middle">
+
+            <div class="demo">
+
+              <div style="outline: 4px dashed #e2e2e2">
+                <img id="image" onLoad="snapfit.add(this);" src="png/logo.jpg" width="1080" height="1000" border="0"
+                  alt="girl" />
+              </div>
+
+
             </div>
-          </div>
-          <div>
-            <p class="padding-medium uk-text-center small">C-ANPROM/PT/ADY/0001 03/2021</p>
-          </div>
-        </aside>
-
-        <div class="holder uk-position-relative uk-flex uk-flex-middle">
-
-          <div class="demo" id="chartContainer">
-
-            <div style="outline: 4px dashed #e2e2e2">
-              <img id="image" onLoad="snapfit.add(this);" src="png/logo.jpg" width="1000" height="1000" border="0"
-                alt="girl" />
-            </div>
-
-
-          </div>
-
-          <div class="color-ui uk-position-bottom-left uk-width-1-1">
-
           </div>
         </div>
       </div>
+
+
+    </section>
+
+  </div>
+
+
+  <section class="visible">
+
+    <div class="uk-flex uk-flex-center uk-text-center uk-margin-medium-top  uk-margin-medium-bottom">
+      
+      <div>
+        <div id="download-container"
+        class="uk-flex uk-flex-center uk-container-large uk-margin-auto uk-padding-small fade-in"
+        style="display: none; cursor: pointer">
+        <div id="download" class=""
+          style="padding: 20px 50px; background-color: #048615; color: white; border-radius: 0px 18px 18px 18px; font-size: 20px; ">
+          TRANSFERIR IMAGEM</div>
+      </div>
+      
+        <p class="color-purple  uk-margin-small-bottom">Conseguiste descobrir?<br>
+          Descarrega a imagem e partilha o puzzle completo<br>
+          no grupo Takeda All Together.
+        </p>
+        <h2 class="color-yellow" style="text-transform: uppercase;"> Demonstra o teu apoio!
+        </h2>
+        <p class="uk-margin-small-bottom" style="font-size: 12px;">
+          Internal Use Only.<br>
+          Copyright © 2023 Takeda Pharmaceutical Company Limited. Todos os direitos reservados
+        </p>
+      </div>
     </div>
-
-
   </section>
+
   <!-- UIkit JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/js/uikit-icons.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+  <script src="js/jquery-countdown-timer-control.js"></script>
+  <script src="js/timer.jquery.min.js"></script>
+  <script src="js/ez.countimer.min.js"></script>
 
 
 
   <script>
+
+    $("#start").on('click', function () {
+      $("#start").addClass("noselect")
+      snapfit.admix(image, true);
+      $(".visible").removeClass("hidden")
+
+      $('.stopwatch').countimer({
+        autoStart: true,
+        useHours: false,
+
+      });
+
+    })
+
 
     $("#download").on('click', function () {
       html2canvas($("#chartContainer"), {
         onrendered: function (canvas) {
           var url = canvas.toDataURL();
 
-          var triggerDownload = $("<a>").attr("href", url).attr("download", "image.jpeg").appendTo("body");
+          var triggerDownload = $("<a>").attr("href", url).attr("download", "image.png").appendTo("body");
           triggerDownload[0].click();
           triggerDownload.remove();
         }
       });
     })
+
+    function stop() {
+      $(".fade-out").fadeOut("300", function () {
+          $(".fade-in").fadeIn("300", function () {
+          // Animation complete
+        });
+        });    
+     
+
+      $('.stopwatch').countimer('stop');
+
+
+    }
+
+
   </script>
 </body>
 

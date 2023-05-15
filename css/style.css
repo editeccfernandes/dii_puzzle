@@ -2,6 +2,11 @@
   background-color: #ed1c24;
 }
 
+.background-purple {
+  background-color: #652681;
+}
+
+
 .background-white {
   background-color: white;
 }
@@ -9,13 +14,21 @@
   color: #ed1c24;
 }
 
+.color-purple{
+  color:#652681; 
+}
+
+.color-yellow{
+  color:#f08017; 
+}
+
 .color-white {
   color: white;
 }
 
 h1 {
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 h2 {
@@ -102,11 +115,6 @@ aside {
   float: right;
 }
 
-.logosvg {
-  max-width: 300px;
-  margin-bottom: 30px;
-}
-
 .SwatchHolderIcon {
   width: 50px;
   height: 50px;
@@ -156,4 +164,62 @@ aside {
 canvas#girl{
   width: 100% !important;
   height: auto !important;
+}
+
+.countdown-wrapper {
+  margin-top: 35px;
+}
+.countdown > * {
+  display: inline-block;
+  font-family: "Digital-7", monospace;
+  color: #4a2f90;
+  font-size: 45px;
+}
+
+.stopwatch {
+  display: inline-block;
+  font-family: "Digital-7", monospace;
+  color: #652681;
+  font-size: 25px;
+}
+
+.jst-hours {
+  display: none;
+}
+
+
+.visible{
+  opacity: 1;
+  transition: all, 600ms;
+
+}
+.hidden{
+
+  opacity: 0;
+
+  transition: all, 600ms;
+}
+
+
+
+.select{
+  margin-bottom: 0; 
+  padding: 20px 50px; 
+  color: white; 
+  background-color: #f08017; 
+  border-radius: 0px 18px 18px 18px; 
+  font-size: 20px; 
+  cursor: pointer;
+  pointer-events: all;
+  animation: all 1s;
+
+}
+
+
+.noselect{
+  background-color: #797979;
+  color: white;
+  pointer-events: none;
+
+  animation:all 1s;
 }
