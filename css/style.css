@@ -190,17 +190,25 @@ canvas#girl{
 
 .visible{
   opacity: 1;
-  transition: all, 600ms;
+  height: auto;
+  pointer-events: all;
+  transition:  all, 600ms;
+
+
 
 }
 .hidden{
-
   opacity: 0;
-
-  transition: all, 600ms;
+  pointer-events: none;
+height: 0;
+transition:none;
 }
 
 
+
+.demo{
+
+}
 
 .select{
   margin-bottom: 0; 
@@ -222,4 +230,12 @@ canvas#girl{
   pointer-events: none;
 
   animation:all 1s;
+}
+
+body{
+  opacity: 0;
+}
+
+.loaded{
+opacity: 1;
 }
